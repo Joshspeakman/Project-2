@@ -1,0 +1,1 @@
+CREATE DATABASE lastfm_db;

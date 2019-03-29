@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>User Manager</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/flatly/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Expletus+Sans|Merriweather+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="background">
+		<div class="container">
+			<div class="row mt-4">
+			<div class="col-md-2 col-sm-2">
+			</div>
+				<div class="col-md-2 col-sm-2">
+			<a class="btn btn-light managebtn2" href="/cms">New Track</a>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-md-9 offset-md-1">
+					<div class="author-container mainarea img-shadow">
+						<h3 class="text-center">User Playlists</h3>
+						<table class="table opaque2 tablecolor table-hover">
+							<thead>
+								<tr>
+									<th>Username</th>
+									<th># of Tracks in Playlist</th>
+									<th>See Users's Playlist</th>
+									<th>Delete User</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="form-row">
+									<form id="author-form">
+										<td colspan="2">
+											<input placeholder="Enter a New User's Name" id="author-name" type="text" />
+										</td>
+										<td colspan="3"><button type="submit" class="btn btn-submit btn-createuser">Create User</button>
+										</td>
+									</form>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<script src="js/user.js" type="text/javascript"></script>
+
+</body>
+
+</html>

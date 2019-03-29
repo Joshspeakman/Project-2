@@ -1,0 +1,157 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0px solid transparent;
+    /* color: #fff; */
+    /* background: url("../images/studio.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000;
+    position: relative;
+}
+
+.mainarea {
+  opacity: 1;
+  background-color: #362c22f2;
+  color: #fff;
+}
+
+.opaque2 {
+  opacity: 1;
+}
+
+.holder {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Expletus Sans', cursive;
+}
+
+.background {
+  background: url("../images/studio.jpg");
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #000;
+  position: relative;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border: 6px solid rgb(36, 36, 36);
+  min-height: 1000px;
+}
+
+label {
+  color: #fff;
+}
+
+.managebtn {
+  left: 100px;
+  position: relative;
+}
+
+.managebtn2 {
+  left: -100px;
+  position: relative;
+}
+
+.managebtn3 {
+  left: 95px;
+  position: relative;
+}
+
+.managebtn4 {
+  left: 55px;
+  position: relative;
+}
+
+a {
+  color: #fff;
+}
+
+.btn {
+  background: #372d21;
+  color: #fff;
+  border: 1px solid;
+}
+
+.card {
+  border-radius: 35px;
+}
+.mainarea {
+  border-radius: 15px;
+}
+
+.img-shadow{
+  box-shadow: 10px 10px 5px -3px #ae9d7f !important;
+}
+
+.btn:hover {
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  background: #9c8e73;
+  color: #000;
+  }
+
+.btn-edit,
+.btn-delete,
+.btn-createuser {
+border: none;
+}
+
+.boldlink {
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.button.submit {
+  float: right;
+}
+
+form#cms {
+  margin-top: 50px;
+}
+
+#cms textarea {
+  resize: none;
+}
+
+.card-header button.delete,
+button.edit {
+  float: right;
+  margin: 5px;
+}
+
+.author-container {
+  margin-top: 50px;
+}
+
+.author-list {
+  margin-top: 25px;
+}
+
+.blog-container {
+  margin-top: 30px;
+}
+
+.blog {
+  margin-top: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+#author-name {
+  width: 100%;
+  height: 35px;
+  margin-top: 5px;
+}
+
+.top-30 {
+  margin-top: 30px;
+}
